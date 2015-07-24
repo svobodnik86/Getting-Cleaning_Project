@@ -49,6 +49,10 @@ the final data set which contains descriptive activity names and descriptive var
 In addition, it was averaged over several measurements and filtered according to activity and subject
 
 
+UNITS
+-----
+units for acceleration are standard (in g)
+units for angular velocity are radians/second
 
 
 
