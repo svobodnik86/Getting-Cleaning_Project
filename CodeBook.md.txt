@@ -1,0 +1,54 @@
+This is the codebook to describe variables and operations
+
+RAW DATA
+---------
+
+test_data 
+original data set created from X_test.txt
+
+training_data 
+similar data set from X_train.txt
+
+features
+original data set which contains labels of measurements
+
+training_labels, test_labels
+original data from the corresponding y data sets
+
+training_subjects, test_subjects
+original data from the corresponding test and training subjects
+
+
+PROCESSED DATA
+--------------
+
+total_data
+a set issued from merging test_data and training_data
+
+total_subjects
+a set issued from merging test_subjects and training_subjects
+
+total_labels
+a set issued from merging test_labels and training_labels
+
+mean_or_standard
+data set of labels containing mean() or std() strings (second column)
+the first column contains column numbers (and can thus be used for subsetting)
+
+totalData_mean_orstd
+processed total_data set, now it contains only columns which contain mean() or std()
+
+activity_labels
+a data frame which contains descriptive activity names instead of numbers
+
+total_data_tidy
+a data frame created from activity labels, total subjects and totalData_mean_orstd
+
+byActivity
+the final data set which contains descriptive activity names and descriptive variable names.
+In addition, it was averaged over several measurements and filtered according to activity and subject
+
+
+
+
+
